@@ -2,31 +2,25 @@
 <html lang="en">
 
 <head>
+    <!-- Title -->
+    <title>Test</title>
 
     <!-- JQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <!-- Head -->
-    <script>
-        $(function () {
-            $("head").load("inc/head.html", function () {
-                $("head").append("<title>Test</title>");
-            });
-            $("#header").load("inc/header.html");
-            $("#footer").load("inc/footer.html");
-        });
-    </script>
-
+    <!-- Include HTML -->
+    <script src="js/include-html.js"></script>
 </head>
 
 <body>
     <header id="header"></header>
     <main role="main" class="container">
 
-        <div class="starter-template">
+        <div>
             <h1>Test</h1>
+            <p class="lead">Some lead text.</p>
         </div>
 
     </main>

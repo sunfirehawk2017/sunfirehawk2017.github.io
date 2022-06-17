@@ -2,34 +2,25 @@
 <html lang="en">
 
 <head>
+    <!-- Title -->
+    <title>My Portfolio</title>
 
     <!-- JQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <!-- Head -->
-    <script>
-        $(function () {
-            $("head").load("inc/head.html", function () {
-                $("head").append("<title>My Portfolio</title>");
-            });
-            $("#header").load("inc/header.html");
-            $("#footer").load("inc/footer.html");
-        });
-    </script>
-
+    <!-- Include HTML -->
+    <script src="js/include-html.js"></script>
 </head>
 
 <body>
     <header id="header"></header>
     <main role="main" class="container">
 
-        <div class="starter-template">
-            <h1>Bootstrap starter template</h1>
-            <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text
-                and a
-                mostly barebones HTML document.</p>
+        <div>
+            <h1>My Portfolio</h1>
+            <p class="lead">Some lead text.</p>
         </div>
 
     </main>

@@ -1,3 +1,10 @@
-<div class="container">
-    <span class="text-muted">Place sticky footer content here.</span>
+<div class="bg-dark">
+    <div class="container">
+        <div class="text-center text-white">
+            ©<span id="year"></span> by Andrew Murray
+        </div>
+    </div>
 </div>
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
